@@ -42,6 +42,11 @@ After ranking all words by similarity, I arbitrarily removed all words below a
 minimum threshold.  I also added in a couple words that the algorithm
 unfortunately missed (e.g. "bumpercar", "cuttlefish").
 
+TODO:
+
+- Keep fine tuning the distance function.  Make "ch" close to "sh" for example.
+- Compound words!  To really be exhaustive, the script should be able to create things like "numbercrunch".
+
 Inspiration and prior art:
 
 - http://imgur.com/gallery/E7UKH
