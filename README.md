@@ -33,7 +33,7 @@ BENEDICT.txt and CUMBERBATCH.txt files.  It reads the CMU pronunciation
 dictionary, parses the entries, and scores each word by how much it sounds like
 "Benedict" or "Cumberbatch".  This is done with a custom phonetic distance
 function that takes breaks each word into syllables and compares those, further
-breaking each syllable into it's beginning consonants (if present), main vowel,
+breaking each syllable into its beginning consonants (if present), main vowel,
 and ending consonants (if present).  Differences increase the distance score.
 Differences in the first syllable, last syllable, or number of syllables incur
 extra penalties.
